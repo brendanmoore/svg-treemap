@@ -1,6 +1,6 @@
 {
   "name": "svg-treemap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SVG from generated Treemap",
   "main": "./dist/svg-treemap.js",
   "scripts": {
