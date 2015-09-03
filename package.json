@@ -1,0 +1,23 @@
+{
+  "name": "svg-treemap",
+  "version": "0.0.1",
+  "description": "SVG from generated Treemap",
+  "main": "./dist/svg-treemap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -t babelify --standalone svg-treemap > ./dist/svg-treemap.js",
+    "build-min": "browserify index.js -t babelify -t uglifyify --outfile ./dist/svg-treemap.min.js"
+  },
+  "keywords": [
+    "SVG",
+    "Treemap"
+  ],
+  "author": "Brendan Moore",
+  "repository": "git@github.com:brendanmoore/svg-treemap.git",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1",
+    "uglifyify": "^3.0.1"
+  }
+}
