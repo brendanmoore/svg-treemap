@@ -10,7 +10,7 @@ let input = {
     labels: ["Apples", "Pears", "Oranges", "Peaches"]
 };
 let width = 800;
-left height = 400;
+let height = 400;
 
 let svg = svgTreemap(input, width, height);
 ```
