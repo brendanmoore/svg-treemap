@@ -15,4 +15,4 @@ let height = 400;
 let svg = svgTreemap(input, width, height);
 ```
 
-![Example Treemap](https://cdn.rawgit.com/brendanmoore/svg-treemap/master/example.svg "Example Treemap")
+![Example Treemap](https://cdn.jsdelivr.net/gh/brendanmoore/svg-treemap/example.svg "Example Treemap")
